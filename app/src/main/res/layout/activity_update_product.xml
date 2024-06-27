@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.UpdateProductActivity">
+    <ImageView
+        android:id="@+id/imageUpdate"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_add_a_photo_24"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:hint="Click on image to browse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editTextProductNameUpdate"
+        android:hint="Enter product name"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editTextProductPriceUpdate"
+        android:hint="Enter product price"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editTextProductDescUpdate"
+        android:hint="Enter product desc"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btnUpdate"
+        android:layout_gravity="center"
+        android:text="Update"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
